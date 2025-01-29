@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Test</title>
 </head>
 
 <body>
+    <div class="main-container">
     <!-- Navbar section -->
     <header class="top">
         <nav class="navbar">
             <div class="logo">
-                <p>LOGO</p>
+                <p>Omar Tounsi</p>
             </div>
             <ul class="navlinks">
                 <li><a href = '#'>Home</a></li>
@@ -29,13 +32,17 @@
     </header>
 
     <!-- Sections section -->
-    <section>
-        <h1>About</h1>
-        <p>Hello, my name is Omar Tounsi and i'm currently a student at <a href = "https://gomycode.com/tn/">GoMyCode</a> El Mourouj</p>
+     <!-- About section -->
+    <section class="about-container">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/B8JBIOErtdU?si=LMMay1_R0o_RI_LU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <aside>
+            <h1>About</h1>
+            <p>Hello, my name is Omar Tounsi and i'm currently a student at <a href = "https://gomycode.com/tn/"><span class="go">Go</span>MyCode</a> El Mourouj.<br>This is my portfolio webpage<br><i class="material-icons">computer</i></p>
+        </aside>
     </section>
 
-    <section>
+    <!-- Work section -->
+    <section class="work-container">
         <h1>Work</h1>
         <p>In the following, I will present to you a list of all my work: </p>
         <ul>
@@ -45,10 +52,11 @@
         </ul>
     </section>
 
+    <!-- Resume section -->
     <section>
         <h1>Resume</h1>
         <p>Please fill out the following form to continue to the resume page: </p>
-        <form>
+        <form class="form-container">
             <label>Username:</label>
             <input type = "text" placeholder = "Enter something"><br>
             <label>Password:</label>
@@ -80,11 +88,13 @@
               </tr>
           </table>
     </section>
+    <footer>
+        <p>Copyright infringment rights and logos</p>
+        <br><aside><h6>for good luck</h6><img height = "80" src = "cat.jpg"></aside>
+    </footer>
+    </div>
 </body>
 
-<!-- Footer for all your legal info -->
-<footer>
-    <p>Copyright infringment rights and logos</p>
-    <br><aside><h6>for good luck</h6><img height = "80" src = "cat.jpg"></aside>
-</footer>
+<!-- Footer for all the legal info -->
+
 </html>
